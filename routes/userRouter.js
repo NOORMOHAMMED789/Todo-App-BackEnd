@@ -5,7 +5,7 @@ const dotenv = require("dotenv").config();
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const saltRounds = 10;
-const PRIVATE_KEY = process.env.PRIVATE_KEY || "1234zeesh@encoded";
+const PRIVATE_KEY = process.env.PRIVATE_KEY || "1234noormohammed@encoded";
 
 router.use(express.json());
 router.use(express.urlencoded({ extended: false }));

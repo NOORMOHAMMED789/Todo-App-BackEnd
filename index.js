@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/api/v1/user", require("./routes/userRouter"));
 
 //!this is the route for the todoapp storage
-// app.use("/api/v1/todo", require("./routes/todoRouter"));
+app.use("/api/v1/todo", require("./routes/todoRouter"));
 
 connection();
 
